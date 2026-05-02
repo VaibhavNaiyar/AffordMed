@@ -1,0 +1,19 @@
+{
+  "name": "affordmed-stage1-priority-inbox",
+  "version": "1.0.0",
+  "description": "AffordMed Campus Notifications — Stage 1: Priority Inbox Algorithm",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.0"
+  }
+}
